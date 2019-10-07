@@ -97,6 +97,8 @@ body {
 
 #main ul  {
 list-style: none;
+padding: 0;
+
 }
 
 
@@ -116,7 +118,10 @@ list-style: none;
 /* Hide the images by default */
 .mySlides {
 display: none;
+-webkit-overflow-scrolling: touch;
 }
+
+#slide1{display:block;}
 
 /* Next & previous buttons */
 .prev, .next {
