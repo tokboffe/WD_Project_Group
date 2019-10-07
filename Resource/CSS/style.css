@@ -102,13 +102,16 @@ list-style: none;
 padding: 0;
 }
 
-#main ul  li:nth-child(even){
+/* #main ul  li:nth-child(even){
   background: lightgrey;
 }
 
 #main ul li:nth-child(odd){
   border: solid lightgrey 5px;
-}
+} */
+
+
+
 
 #main figure{
   margin: 0 0;
@@ -116,9 +119,19 @@ padding: 0;
 }
 
 #main article{
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+
 }
 
+#main article img{
+  min-height: 250px;
+}
+
+#main article h2{
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
 
 
 /*SLIDER --------------------------------------------------------------------------------------------------------*/
@@ -137,6 +150,10 @@ padding: 0;
 .mySlides {
 display: none;
 
+}
+
+.mySlides img{
+  min-height: 250px;
 }
 
 #slide1{display:block;}
@@ -162,6 +179,10 @@ display: none;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
