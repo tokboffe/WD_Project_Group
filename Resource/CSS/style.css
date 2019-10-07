@@ -95,10 +95,28 @@ body {
 
 /*-------------------END-HEADER-------------------*/
 
-#main ul  {
+
+/*-----------------------MAIN---------------------*/
+#main ul   {
 list-style: none;
 padding: 0;
+}
 
+#main ul  li:nth-child(even){
+  background: lightgrey;
+}
+
+#main ul li:nth-child(odd){
+  border: solid lightgrey 5px;
+}
+
+#main figure{
+  margin: 0 0;
+  min-width: ;
+}
+
+#main article{
+  margin-bottom: 50px;
 }
 
 
